@@ -17,7 +17,7 @@ class _CheckSessionsState extends State<CheckSessions> {
     checkSessions().then((value) {
       if (value) {
         Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => HomePage()));
+            context, MaterialPageRoute(builder: (context) => Homepage()));
       } else {
         Navigator.pushReplacement(
             context, MaterialPageRoute(builder: (context) => LoginPage()));

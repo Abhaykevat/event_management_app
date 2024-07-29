@@ -115,7 +115,8 @@ class _EditEventPageState extends State<EditEventPage>
             InputFile.fromBytes(bytes: fileByes, filename: file.name);
 
         final response = await storage.createFile(
-            bucketId: '64bcdd3ad336eaa231f0',
+            // bucketId: '64bcdd3ad336eaa231f0',
+            bucketId: '669f4c07003837e8aba8',
             fileId: ID.unique(),
             file: inputFile);
         print(response.$id);

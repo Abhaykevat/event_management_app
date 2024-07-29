@@ -1,10 +1,7 @@
 import 'dart:io';
 
 import 'package:event_management_app/saved_data.dart';
-// import 'package:event_management_app/views/create_event_page.dart';
-// import 'package:event_management_app/views/homepage.dart';
 import 'package:event_management_app/views/login.dart';
-// import 'package:event_management_app/views/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
